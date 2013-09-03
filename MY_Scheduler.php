@@ -2,12 +2,12 @@
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * elper from the Code Igniter framework.
+ * Library from the CodeIgniter framework.
  *
  * @package		CodeIgniter
  * @version		1.0
  * @author 		Kamaro Lambert <kamaroly@gmail.com>
- * @description CodeIgniter library to helper you create scheduler tasks on windows  
+ * @description CodeIgniter library to helpe you create scheduler tasks on windows  
  * @copyright	Copyright (c) Sept 2013, Kamaro Lambert
  * @link 		http://huguka.com/
  * @license     GPL/MIT
