@@ -2,25 +2,21 @@
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Library from the CodeIgniter framework.
+ * Library for the CodeIgniter framework.
  *
  * @package		CodeIgniter
  * @version		1.0
  * @author 		Kamaro Lambert <kamaroly@gmail.com>
  * @description CodeIgniter library to helpe you create scheduler tasks on windows  
- * @copyright	Copyright (c) Sept 2013, Kamaro Lambert
+ * @copyright    	Copyright (c) Sept 2013, Kamaro Lambert
  * @link 		http://huguka.com/
- * @license     GPL/MIT
+ * @license             GPL/MIT
  * @example     
  * $this->load->library('MY_scheduler');  //Loading library
  * $this->my_scheduler->create_task($name,$frequency,$program,$time,$days);  //Creating a new Scheduler tasks
  * $this->my_scheduler->delete_task($name); /                /Delete a scheduler tasks by it's name
  */
-/************************************************************
- * @author Kamaro Lambert                                   *
- * @name Schedule                                           *
- * @description CodeIgniter Schedule helper for windows     *
- *************************************************************/
+
   
 Class MY_Scheduler 
 {
